@@ -1,0 +1,61 @@
+.hero-container {
+    background-image: url('../asserts/herobg.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh; /* Adjust the height as needed */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-container {
+    position: relative;
+  }
+   
+  
+.title {
+    font-size: 3rem; /* Adjust as needed */
+    padding-top: 173px; /* Adjust as needed */
+  }
+  
+  .description {
+    font-size: 1.25rem; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  
+  .search-bar {
+    width: 100%; /* Full width inside the col */
+    max-width: 500px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1rem; /* Adjust as needed */
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group-append .input-group-text {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 868px) {
+    .title {
+      font-size: 2rem; /* Smaller font size for smaller screens */
+      padding-top: 100px; /* Adjust padding as needed */
+    }
+  
+    .description {
+      font-size: 1rem; /* Smaller font size for smaller screens */
+      margin-top: 10px; /* Adjust margin as needed */
+    }
+  
+    .search-bar {
+      width: 100%; /* Full width inside the col */
+      max-width: 300px; /* Smaller max-width for smaller screens */
+      height: 40px; /* Adjust height as needed */
+      font-size: 0.875rem; /* Adjust font size as needed */
+    }
+  }
+  
