@@ -1,13 +1,17 @@
 import React from 'react';
-import Navbar from './Components/Navbar';
-import Hero from './Components/Hero';
+import EcommNavbar from './Components/EcommNavbar';
+import HeroSection from './Components/HeroSection';
 
-const App = () => {
+
+function App() {
   return (
-    <div>
-      <Hero />
+    <div className="App">
+      <EcommNavbar />
+      <HeroSection />
+      
     </div>
   );
-};
+}
 
 export default App;
+  

@@ -1,0 +1,10 @@
+.carousel-item img {
+    height: 90vh;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+ .colurtext{
+    color:blue;
+ }
+  
