@@ -4,6 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Hero1, Hero2, Hero3, Hero4 } from '../asserts';
 import './HeroSection.css';
 import FeatureSection from './FeatureSection';
+import CollectionSection from './CollectionSection';
+import MarqueeSection from './MarqueeSection';
+import AboutSection from './AboutSection';
+import BlogSection from './BlogSection';
+import NewSection from './NewSection';
+import NewsletterSection from './NewsletterSection';
+import Footer from './Footer';
 
 
 
@@ -57,7 +64,14 @@ const HeroSection = () => {
         </Carousel.Item>
       </Carousel>
       <FeatureSection />
-      
+      <CollectionSection />
+      <MarqueeSection />
+
+      <AboutSection />
+      <BlogSection />
+      <NewSection />
+      <NewsletterSection />
+      <Footer />
         
 
       

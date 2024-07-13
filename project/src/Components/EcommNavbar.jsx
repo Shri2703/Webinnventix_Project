@@ -3,13 +3,13 @@ import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 
 const EcommNavbar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar  expand="lg" style={{ background:'#e2eafc', padding:'5px'}}>
       <Container>
         <Navbar.Brand href="#home">STEP & STYLE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+          <Nav className="ml-auto text-dark ">
+            <Nav.Link href="#home" className='text-bold'>Home</Nav.Link>
             <Nav.Link href="#shop">Shop</Nav.Link>
             <NavDropdown title="Categories" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Sneakers</NavDropdown.Item>
